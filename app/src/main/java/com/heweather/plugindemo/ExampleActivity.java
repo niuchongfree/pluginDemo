@@ -27,7 +27,7 @@ public class ExampleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_example);
         //初始化
-        HeWeatherConfig.init("7dcc299aa0054821b99e8336af176f17", "116.40,39.9");
+        HeWeatherConfig.init("注册的key", "需要的location");
 
         //横向布局
         horizonView = findViewById(R.id.horizon_view);
